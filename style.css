@@ -1,0 +1,77 @@
+body {
+    font-family: Netflix Sans, sans-serif;
+    background-color: #112541;
+}
+
+#container{
+    margin: auto;
+    background-color: whitesmoke;
+    height: 800px;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.headerParagraph{
+    text-align: center;
+    padding-top: 30px;
+    color: #112541;
+    font-size: 2.5rem;
+}
+
+.heartDevsLink{
+    text-decoration: none;
+    color: #782bf1;
+}
+
+.h2calculator{
+    text-align: center;
+    font-size: 15px;
+    color: #112541;
+    font-size: 2rem;
+}
+
+.firstHr{
+    border: 0px;
+    border-bottom: solid 1px rgba(210,215,217,.75);
+    width: 50%;
+}
+
+.secondHr{
+
+    border: 0px;
+    border-bottom: solid 1px rgba(210,215,217,.75);
+    width: 30%;
+
+}
+
+input {
+    display: inline-block;
+    font-family: Netflix Sans, sans-serif;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#112541;
+    padding: 12px;
+    margin: auto;
+    margin-bottom: 15px;
+    height: 5px;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+#totalValueForm, #vacationDaysForm, #effectiveDaysForm, #dailyTimeInvestedForm{
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
