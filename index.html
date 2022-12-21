@@ -16,7 +16,8 @@
 
       <hr class="firstHr">
 
-      <h2 class="h2calculator">Calculadora</h2>
+      <div class="container2">
+        <h2 class="h2calculator">Calculadora</h2>
 
         <form id="totalValueForm" action="#" method="post">
           <label for="totalValue">Valor total do projeto</label>
@@ -27,7 +28,7 @@
 
         <form id="dailyTimeInvestedForm" action="#" method="post">
           <label for="DailyTimeInvested">Tempo diário investido no projeto</label>
-          <input type="number" name="DailyTimeInvested" id="DailyTimeInvested">
+          <input type="number" name="DailyTimeInvested" id="dailyTimeInvested">
         </form> 
 
         <hr class="secondHr">
@@ -46,8 +47,12 @@
 
         <hr class="secondHr">
 
-    </div>
+        <button id="buttonCalc" onclick="calc()">Calcular</button>
 
+        <div id="result"></div>        
+    </div>
+  </div>
+      </div>
     <script src="script.js"></script>
   </body>
 </html>

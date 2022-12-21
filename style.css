@@ -1,14 +1,26 @@
+@font-face {
+    font-family: NtflxSans;
+    src: url('./fonts/NetflixSans-Bold.otf');
+}
+
+*::selection{
+    background: #112541;
+    color: white;
+}
+
 body {
-    font-family: Netflix Sans, sans-serif;
+    font-family: NtflxSans, sans-serif;
     background-color: #112541;
+    box-sizing: border-box;
 }
 
 #container{
     margin: auto;
     background-color: whitesmoke;
-    height: 800px;
+    height: 850px;
     width: 80%;
     border-radius: 15px;
+    text-align: center;
 }
 
 .headerParagraph{
@@ -46,7 +58,7 @@ body {
 
 input {
     display: inline-block;
-    font-family: Netflix Sans, sans-serif;
+    font-family: NtflxSans, sans-serif;
     border-radius: 10px;
     border-width: 1px;
     border-style: solid;
@@ -74,4 +86,21 @@ label{
 form {
     display: flex;
     flex-direction: column;
+}
+
+button{
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    font-family: NtflxSans, sans-serif;
+    background-color: #112541;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#112541e7
 }
